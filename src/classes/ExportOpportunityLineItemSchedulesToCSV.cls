@@ -1,6 +1,6 @@
 public class ExportOpportunityLineItemSchedulesToCSV{
 
-    public string getRecords(){
+    public static string getRecords(){
         String[] records = new String[]{};
         String[] olisProperties = new String[]{
             'Id',
